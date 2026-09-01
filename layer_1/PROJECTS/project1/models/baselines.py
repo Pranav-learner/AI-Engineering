@@ -15,7 +15,7 @@ import pandas as pd
 from sklearn.base import BaseEstimator, ClassifierMixin, RegressorMixin
 from ..config import RiskTier
 
-class HistorocalMeanForecaster(BaseEstimator, RegressorMixin):
+class HistoricalMeanForecaster(BaseEstimator, RegressorMixin):
     """
     Baseline Forecaster:
     Predicts next month's expense as simply the user's recent rolling average expense.
